@@ -4,8 +4,6 @@
 
 3. ``docker run -dp 8000:8000 django-todolist``
 
-4. ``python manage.py runserver``
-
 http://localhost:8000/tasks
 
 http://localhost:8000/hello
