@@ -2,7 +2,7 @@
 
 2. ``docker build -t django-todolist .``
 
-3. ``docker run -dp 8000:8000 django-todolist``
+3. ``docker run -dp 8000:8000 --rm django-todolist``
 
 http://localhost:8000/tasks
 
