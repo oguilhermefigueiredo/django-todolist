@@ -1,8 +1,10 @@
-``docker build -t django-todolist .``
+1. ``git clone https://github.com/oguilhermefigueiredo/django-todolist && cd django-todolist``
 
-``docker run -dp 8000:8000 django-todolist``
+2. ``docker build -t django-todolist .``
 
-``python manage.py runserver``
+3. ``docker run -dp 8000:8000 django-todolist``
+
+4. ``python manage.py runserver``
 
 http://localhost:8000/tasks
 
